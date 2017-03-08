@@ -1,3 +1,12 @@
+# Plupal
+_It's Drupal, with a pattern library!_
+
+## Installation
+1. Clone the github repo to your local environment
+1. `composer install`
+1. something with the pattern library
+
+
 # Composer template for Drupal projects
 
 [![Build Status](https://travis-ci.org/drupal-composer/drupal-project.svg?branch=8.x)](https://travis-ci.org/drupal-composer/drupal-project)
