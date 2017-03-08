@@ -4,7 +4,10 @@ _It's Drupal, with a pattern library!_
 ## Installation
 1. Clone the github repo to your local environment
 1. `composer install`
-1. something with the pattern library
+1. cd to `web/themes/custom/flupal/pattern-library`:
+    1. `npm install -g generator-fabricator`
+    1. `npm install -g yo`
+    1. `yo fabricator`
 
 
 # Composer template for Drupal projects
