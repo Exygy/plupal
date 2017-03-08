@@ -3,5 +3,6 @@ global:
   css:
     base:
       css/flupal.css: {}
+      pattern-library/dist/assets/toolkit/styles/toolkit.css: {}
   js:
     js/flupal.js: {}
