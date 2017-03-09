@@ -5,6 +5,10 @@ This is a template project that shows a "proof of concept" demonstrating how you
 
 This project was originally created for a presentation at Stanford Drupal Camp.  You can [see the slideshow](https://docs.google.com/presentation/d/1Q8PTdIV2MfNWbgIPI4FaosAbxnquHTyOQFdSNt_g5hc/edit?usp=sharing).
 
+**Related Projects:** 
+* [wp-pattern-library](https://github.com/Exygy/wp-pattern-library), a WordPress theme that integrates a pattern library
+* [Exygy Patterns](https://github.com/exygy-design/exygy-patterns-f6), Exygy's boilerplate pattern library with Fabricator and Foundation 6
+
 ## Installation
 1. Clone the github repo to your local environment
 1. `composer install`
