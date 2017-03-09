@@ -8,51 +8,29 @@ _It's Drupal, with a pattern library!_
     1. `npm install`
     1. `npm install -g bower`
     1. `bower install`
-    1. `npm start`
+    
+## Getting Started
+1. `npm start`.  The Fabricator pattern library will automatically open in your web browser with live reload
+1. Open a sass file, eg. `web/themes/custom/flupal/pattern-library/src/assets/toolkit/styles/toolkit.scss`
+1. Make a change.  When you save, the Fabricator will automatically recompile your sass and you'll see the change instantly in the pattern library.
+1. Refresh a Drupal page.  The change is there too!
     
 ## @todo:
 This project is still in active development and awaiting the following tasks:
 1. Clean up child theme `flupal` - no sass
 
-
-# Composer template for Drupal projects
-
-[![Build Status](https://travis-ci.org/drupal-composer/drupal-project.svg?branch=8.x)](https://travis-ci.org/drupal-composer/drupal-project)
-
-This project template should provide a kickstart for managing your site
-dependencies with [Composer](https://getcomposer.org/).
-
-If you want to know how to use it as replacement for
-[Drush Make](https://github.com/drush-ops/drush/blob/master/docs/make.md) visit
-the [Documentation on drupal.org](https://www.drupal.org/node/2471553).
-
-## Usage
-
-First you need to [install composer](https://getcomposer.org/doc/00-intro.md#installation-linux-unix-osx).
-
-> Note: The instructions below refer to the [global composer installation](https://getcomposer.org/doc/00-intro.md#globally).
-You might need to replace `composer` with `php composer.phar` (or similar) 
-for your setup.
-
-After that you can create the project:
-
-```
-composer create-project drupal-composer/drupal-project:8.x-dev some-dir --stability dev --no-interaction
-```
-
-With `composer require ...` you can download new dependencies to your 
-installation.
-
-```
-cd some-dir
-composer require drupal/devel:~1.0
-```
-
-The `composer create-project` command passes ownership of all files to the 
-project that is created. You should create a new git repository, and commit 
-all files not excluded by the .gitignore file.
+## Credits
+This project is based on the following open source projects:
+* [drupal-composer](https://github.com/drupal-composer/drupal-project)
+* [ZURB Foundation Drupal theme](https://www.drupal.org/project/zurb_foundation)
+* [Fabricator](https://fbrctr.github.io/)
+* And of course [Drupal 8](http://drupal.org)
 
 ## What does the template do?
+
+This is a framework you can use for your own development.  It includes a stable copy of Drupal 8, a custom theme based on the ZURB Foundation contrib theme, and the Fabricator pattern library.
+
+_See below for some notes on drupal-composer:_
 
 When installing the given `composer.json` some tasks are taken care of:
 
@@ -67,7 +45,7 @@ When installing the given `composer.json` some tasks are taken care of:
 * Latest version of drush is installed locally for use at `vendor/bin/drush`.
 * Latest version of DrupalConsole is installed locally for use at `vendor/bin/drupal`.
 
-## Updating Drupal Core
+### Updating Drupal Core
 
 This project will attempt to keep all of your Drupal Core files up-to-date; the 
 project [drupal-composer/drupal-scaffold](https://github.com/drupal-composer/drupal-scaffold) 
@@ -91,7 +69,7 @@ Follow the steps below to update your core files.
    keeping all of your modifications at the beginning or end of the file is a 
    good strategy to keep merges easy.
 
-## Generate composer.json from existing project
+### Generate composer.json from existing project
 
 With using [the "Composer Generate" drush extension](https://www.drupal.org/project/composer_generate)
 you can now generate a basic `composer.json` file from an existing project. Note
