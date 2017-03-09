@@ -5,6 +5,9 @@ _It's Drupal, with a pattern library!_
 1. Clone the github repo to your local environment
 1. `composer install`
 1. cd to `web/themes/custom/flupal/pattern-library` and run this command:
+    1. `npm install`
+    1. `npm install -g bower`
+    1. `bower install`
     1. `npm start`
     
 ## @todo:
