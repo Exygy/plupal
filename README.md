@@ -1,6 +1,10 @@
 # Plupal
 _It's Drupal, with a pattern library!_
 
+This is a template project that shows a "proof of concept" demonstrating how you can embed a pattern library directly into your Drupal project.  As you edit the sass in your PL, it automatically goes into your Drupal theme.  This gives you the benefits of having a pattern library, without creating any extra effort for your front end developer.
+
+This project was originally created for a presentation at Stanford Drupal Camp.  You can [see the slideshow](https://docs.google.com/presentation/d/1Q8PTdIV2MfNWbgIPI4FaosAbxnquHTyOQFdSNt_g5hc/edit?usp=sharing).
+
 ## Installation
 1. Clone the github repo to your local environment
 1. `composer install`
